@@ -39,3 +39,45 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+ 
+if (4 == 4) {
+    console.log('OK!');
+} else {
+    console.log('Error');
+}
+
+                            // УСЛОВИЯ
+
+
+// const num = 49;
+
+// if (num > 100) {
+//     console.log('V tochk');
+// } else if (num > 50) {
+//     console.log('OK');
+// } else if (num == 49) {
+//     console.log('gud');
+// } else {
+//     console.log('sorry');
+// }
+
+// const num = 50;
+
+// switch (num) {
+//     case 49:
+//         console.log('Nevero');
+//         break;
+//     case 100:
+//         console.log('Nevero');
+//         break;
+//     case 50:
+//         console.log('v tochku');
+//         break;
+//     default:
+//         console.log('Ne v etot raz');
+//         break;
+// }       
+
+
+
+                             // ЦИКЛЫ
