@@ -124,3 +124,21 @@ console.log(personalMovieDB);
     
 // }
 
+
+
+let num = 10;
+
+function showFirstMessage (text) {
+    console.log(text);
+    num = 20;
+}
+
+showFirstMessage('Hello World');
+console.log(num);
+
+function calc(a, b) {
+    return a + b;
+}
+
+console.log(calc(4, 5));
+
