@@ -126,19 +126,30 @@ console.log(personalMovieDB);
 
 
 
-let num = 10;
 
-function showFirstMessage (text) {
-    console.log(text);
-    num = 20;
-}
+                                        // ФУНКЦИИ
 
-showFirstMessage('Hello World');
-console.log(num);
 
-function calc(a, b) {
-    return a + b;
-}
 
-console.log(calc(4, 5));
+                                        
+// let num = 10;
 
+// function showFirstMessage (text) {
+//     console.log(text);
+//     num = 20;
+// }
+
+// showFirstMessage('Hello World');
+// console.log(num);
+
+// function calc(a, b) {
+//     return a + b;
+// }
+
+// console.log(calc(4, 5));
+
+// const logger = function() {
+//     console.log('hello');
+// };
+
+// logger();
