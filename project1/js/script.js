@@ -1,24 +1,5 @@
 "use strict";
 
-/* Задание на урок:
-1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
-'Сколько фильмов вы уже посмотрели?'
-2) Создать объект personalMovieDB и в него поместить такие свойства:
-    - count - сюда передается ответ на первый вопрос
-    - movies - в это свойство поместить пустой объект
-    - actors - тоже поместить пустой объект
-    - genres - сюда поместить пустой массив
-    - privat - в это свойство поместить boolean(логическое) значение false
-3) Задайте пользователю по два раза вопросы:
-    - 'Один из последних просмотренных фильмов?'
-    - 'На сколько оцените его?'
-Ответы стоит поместить в отдельные переменные
-Записать ответы в объект movies в формате: 
-    movies: {
-        'logan': '8.1'
-    }
-Проверить, чтобы все работало без ошибок в консоли */
-
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -153,3 +134,37 @@ console.log(personalMovieDB);
 // };
 
 // logger();
+
+
+
+
+                // МЕТОДЫ И СВОЙСТВА СТРОК И ЧИСЕЛ
+
+
+
+
+// const str = 'test';
+
+// // console.log(str.toUpperCase());
+
+// console.log(str.toLowerCase());
+// console.log(str);
+
+// const fruit = 'Some fruit';
+// console.log(fruit.indexOf('fruit'));
+
+// const logg = 'Hello world';
+
+// console.log(logg.slice(6, 10));
+
+// console.log(logg.substring(6, 11));
+
+// console.log(logg.substr(6, 5));
+
+
+// const num = 12.2;
+// console.log(Math.round(num));
+
+// const test = '12.2px';
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
