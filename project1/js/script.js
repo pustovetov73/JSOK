@@ -67,7 +67,7 @@ showMyDB(personalMovieDB.privat);
 
 function writeYourGenres () {
     for (let i = 1; i <= 3; i++) {
-        personalMovieDB.genres[i -1] =genre = prompt(`Ваш любимый жанр под номером ${i}`); ;
+        personalMovieDB.genres[i -1]  = prompt(`Ваш любимый жанр под номером ${i}`);
     }
 }
 
@@ -207,3 +207,44 @@ console.log(personalMovieDB);
 // const test = '12.2px';
 // console.log(parseInt(test));
 // console.log(parseFloat(test));
+
+
+
+///////////////////// OБЪЕКТЫ  деструктуризация 
+
+
+
+const option = {
+    name: 'test',
+    width: 1024,
+    height: 1024,
+    colors: {
+        border: 'black',
+        bg: 'red'
+    },
+    makeTest: function() {
+        console.log('Test');
+    }
+};
+
+option.makeTest();
+
+const {border, bg} = option.colors;
+console.log(border);
+
+// console.log(Object.keys(option).length);
+
+// console.log(option.name);
+
+// delete option.name;
+//  console.log(option);
+
+//  for (let key in option) {
+//      if (typeof(option[key]) === 'object') {
+//          for (let i in option[key]) {
+//             console.log (`Свойство ${i} имеет значение ${option[key][i]}`);
+//         }
+//     } else {
+//         console.log (`Свойство ${key} имеет значение ${option[key]}`);
+//     }
+//  }
