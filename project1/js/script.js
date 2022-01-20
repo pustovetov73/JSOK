@@ -248,3 +248,34 @@ console.log(border);
 //         console.log (`Свойство ${key} имеет значение ${option[key]}`);
 //     }
 //  }
+
+
+            // МАСИИВЫ и псевдомасивы
+
+
+
+            
+            const arr = [2, 3, 6, 8, 10];
+
+            // arr[99] = 0;
+            // console.log(arr.length);
+            // console.log(arr);
+            
+            arr.forEach(function(item, i, ) {
+            
+            });
+            
+            
+            // arr.pop();
+            // arr.push(10);
+            
+            // console.log(arr);
+            
+            // for (let i = 0; i < arr.length; i++) {
+            //     console.log(arr[i]);
+            // }
+            
+            for (let value of arr) {
+                console.log(value);
+            }
+            
